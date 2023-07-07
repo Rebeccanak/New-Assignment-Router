@@ -1,0 +1,25 @@
+.product{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.productkey{
+  border-radius: 25px;
+  text-align: center;
+  margin: 8px;
+  padding: 8px;
+  border: 2px solid #090257;
+ 
+}
+.productimage{
+    width: 350px;
+    height: 150px;
+    object-fit: cover;
+}
+.productprice{
+    font-weight: bold;
+}
+.productdiscount{
+    color: rgb(165, 8, 147);
+    font-family: ita;
+}
