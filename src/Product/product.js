@@ -33,7 +33,7 @@ const Products = () => {
         <p className="productprice">price &nbsp;ksh{item.price}</p>
         <p className="productdiscount">discount&nbsp;{item.discountPercentage}%</p>
         <Link to={`/ProductDetails/${item.id}` }className="buton">
-            <button type="submit" className="button">More</button >
+            <button type="submit" className="button">Product Detail</button >
           </Link>
         </div>
       ))}

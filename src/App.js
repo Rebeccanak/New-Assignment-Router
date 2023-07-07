@@ -3,7 +3,7 @@ import './App.css';
 import Login from './Login/login';
 import Products from './Product/product';
 import Navbar from './Navbar/navbar';
-// import ProductDetails from './ProductDetail/detail';
+
 import { BrowserRouter , Routes,Route,Link } from 'react-router-dom';
 
 function App() {
@@ -16,7 +16,6 @@ function App() {
         <Route index element={<Login/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/product' element={<Products/>}/>
-        {/* <Route path='/productdetails/:productId' element={<ProductDetails/>}/> */}
       </Routes>
       </BrowserRouter>
 
